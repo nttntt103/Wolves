@@ -1,0 +1,135 @@
+/* PC */
+@media (min-width: 64em) {
+}
+
+/* Tablet + Mobile */
+@media (max-width: 63.938em) {
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .social-lists {
+        font-size: 24px;
+    }
+
+    #footer .social-lists a {
+        margin: 0px 8px;
+    }
+
+    .contact-form .form-control {
+        padding: 12px 0px;
+        display: inline-block;
+    }
+}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.938em) {
+}
+
+/* MOBILE */
+@media (max-width: 46.188em) {
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav {
+        position: fixed;
+        width: 100%;
+        top: 50px;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        z-index: 1000;
+        background-color: black;
+        text-align: center;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #content .member-img {
+        width: 50%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .swiper-slide .text-content .text-description {
+        display: none;
+    }
+
+    .swiper-slide .text-content .text-heading {
+        font-size: 20px;
+    }
+
+    :root {
+        --swiper-navigation-size: 25px !important;
+    }
+
+    .swiper-pagination-bullet {
+        width: 7px !important;
+        height: 7px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 8px !important;
+        height: 8px !important;
+    }
+}
